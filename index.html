@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Design Mastery | Headphones</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">
+            <img src="assets/logo-dark.png" alt="logo" class="logo-dark" />
+            <img src="assets/logo-white.png" alt="logo" class="logo-white" />
+          </a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#product">Product</a></li>
+        <li><a href="#store">Store</a></li>
+        <li><button class="btn">Buy Now</button></li>
+      </ul>
+    </nav>
+
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="assets/header.png" alt="header" />
+        <img src="assets/header-bg.png" alt="header_bg" class="header-bg" />
+        <div class="header__image__content">
+          <h4>Price: $100</h4>
+          <button class="btn">Add to cart</button>
+        </div>
+      </div>
+      <div class="header__content">
+        <h1>Bluetooth<br />Headphone</h1>
+        <p>
+          Dive into our curated selection of premium Bluetooth headphones,
+          crafted for the ultimate listening experience.
+        </p>
+      </div>
+    </header>
+
+    <section class="product" id="product">
+      <div class="section__container product__container">
+        <div class="product__grid">
+          <div class="product__image">
+            <img src="assets/product.png" alt="product" />
+          </div>
+          <div class="product__content">
+            <div class="product__card">
+              <h4>Bluetooth</h4>
+              <p>Bluetooth 4.2 - ACC codec</p>
+              <a href="#">Learn More</a>
+            </div>
+            <div class="product__card">
+              <h4>Quality sound</h4>
+              <a href="#">Learn More</a>
+            </div>
+            <div class="product__card">
+              <div class="product__colors">
+                <div><i class="ri-check-line"></i></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <p>Available colors</p>
+            </div>
+          </div>
+        </div>
+        <div class="product__btn">
+          <button class="btn">Add to cart</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container store__container" id="store">
+      <h2>JBL beats design</h2>
+      <p>
+        Explore our JBL Beats Design collection, where style meets superior
+        audio performance.
+      </p>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="store__card">
+              <h4>Model no- 00035</h4>
+              <img src="assets/store-1.png" alt="store" />
+              <h3>Price- $120</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="store__card">
+              <h4>Model no- 00045</h4>
+              <img src="assets/store-2.png" alt="store" />
+              <h3>Price- $130</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="store__card">
+              <h4>Model no- 00025</h4>
+              <img src="assets/store-3.png" alt="store" />
+              <h3>Price- $110</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="store__card">
+              <h4>Model no- 00055</h4>
+              <img src="assets/store-4.png" alt="store" />
+              <h3>Price- $140</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="store__card">
+              <h4>Model no- 00015</h4>
+              <img src="assets/store-5.png" alt="store" />
+              <h3>Price- $100</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="store__card">
+              <h4>Model no- 00065</h4>
+              <img src="assets/store-6.png" alt="store" />
+              <h3>Price- $150</h3>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <img src="assets/logo-white.png" alt="logo" />
+        <ul class="footer__socials">
+          <li>
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-pinterest-line"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Web Design Mastery. All rights reserved
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
